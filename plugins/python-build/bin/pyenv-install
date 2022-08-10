@@ -86,6 +86,10 @@ for option in "${OPTIONS[@]}"; do
     definitions | indent
     exit
     ;;
+  "list-bare" )
+    definitions
+    exit
+    ;;
   "f" | "force" )
     FORCE=true
     ;;
